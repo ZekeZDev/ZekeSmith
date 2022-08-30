@@ -27,7 +27,7 @@ jobs:
           # Website Lighthouse benchmarks
           plugin_pagespeed: yes
           plugin_pagespeed_url: polymc.org
-          # plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           
           # Notable contributions
           plugin_notable: yes
